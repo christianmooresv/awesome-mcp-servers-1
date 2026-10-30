@@ -4902,6 +4902,25 @@
     }
   },
   {
+    "name": "BORME API",
+    "url": "https://github.com/bormeapi/borme-mcp",
+    "description": "Spain's company registry gazette (BORME) as typed events: more than 9.6 million events since 2009, with company, officer and insolvency lookups, over a hosted Streamable HTTP server with an API key or OAuth.",
+    "category": "legal-and-court-data",
+    "language": "Other",
+    "provider": "BORME API",
+    "tags": [
+      "spain",
+      "company-registry",
+      "insolvency",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.bormeapi.com/mcp"
+    }
+  },
+  {
     "name": "Allscreenshots",
     "url": "https://github.com/allscreenshots/allscreenshots-plugin",
     "description": "Captures website screenshots, runs bulk captures, and manages screenshot schedules and history via the Allscreenshots API; available as a local Python server or a remote endpoint.",
