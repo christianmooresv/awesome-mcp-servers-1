@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 580 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 581 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1149,6 +1149,18 @@ Curated AI news, daily briefs, trending stories and an LLM leaderboard; summarie
 - Tags: news, ai-news, chinese, remote
 - Category: Browsers, Search, and Web Automation
 - Streamable HTTP endpoint: https://aiguanchao.com/mcp
+
+### Allscreenshots
+
+Captures website screenshots, runs bulk captures, and manages screenshot schedules and history via the Allscreenshots API; available as a local Python server or a remote endpoint.
+
+- URL: https://github.com/allscreenshots/allscreenshots-plugin
+- Language: Python
+- Provider: Allscreenshots
+- Official: yes
+- Tags: screenshot, web-capture, remote
+- Category: Browsers, Search, and Web Automation
+- Streamable HTTP endpoint: https://mcp.allscreenshots.com/mcp/v1
 
 ### Apify MCP Server
 
